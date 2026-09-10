@@ -1,7 +1,7 @@
 from goblin import Goblin
 
 
-ARENA_NAME = "The Iron Circle"
+ARENA_NAME = "Oogoly Boogoly Squad!"
 
 
 def main():
@@ -10,10 +10,10 @@ def main():
     print("༼ ᓄºل͟º ༽ᓄ   ᕦ(ò_óˇ)ᕤ")
     print("The gates are opening...")
 
-    goblin = Goblin("Gribble")
+    goblin = Goblin("Mr. Sparkles")
 
     print(f"{goblin.name} enters the arena with {goblin.health} health.")
-    print("But no hero has answered the call... yet.")
+    print("Aye yoo where everybody at??.")
 
 
 if __name__ == "__main__":
