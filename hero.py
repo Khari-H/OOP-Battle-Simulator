@@ -18,8 +18,11 @@ class Hero:
         self.health = self.health - damage
         if self.health > 0:
             self.health = 0
+        if self.health == 0:
+            print(f"THE ALMIGHTY HERO {self.name} HAS FALLEN :(")
 
     def is_alive(self):
         return self.health > 0
 
-
+    def battle_cry(self):
+        print(f"{self.name} yells: FOR THE GLORY OF Bibbidi-Bobbidi-Boo!! ")

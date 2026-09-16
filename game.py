@@ -39,11 +39,13 @@ def main():
     
     heroAttack = lady.attack()
     goblin.take_damage(heroAttack)
+
+    lady.battle_cry()
     
 
     battle(lady, goblin)
 
-
+    
 
 
 if __name__ == "__main__":
